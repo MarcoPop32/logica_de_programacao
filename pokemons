@@ -1,0 +1,2 @@
+var pokemons = ["Pikachu", "Bulbasaur", "Charmander"]
+var timepokemon = ["Pikachu", "M", "1"]
