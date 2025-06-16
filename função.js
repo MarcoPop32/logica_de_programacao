@@ -14,9 +14,16 @@
 // }
 
 // Parâmetros opcionais
- function saudacao(nome = "Visitante"){
-     return `Olá, ${nome}!`;
- }
- saudacao()
- console.log(saudacao("Bananilson"));
+//  function saudacao(nome = "Visitante"){
+//      return `Olá, ${nome}!`;
+//  }
+//  saudacao()
+//  console.log(saudacao("Bananilson"));
 
+// Passagem de Referência
+function adicionarItens(lista){
+    lista.push("Novo item");
+}
+let itens = ["Item 1", "Item 2"];
+adicionarItens(itens);
+console.log(itens);
