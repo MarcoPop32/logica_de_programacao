@@ -21,9 +21,16 @@
 //  console.log(saudacao("Bananilson"));
 
 // Passagem de Referência
-function adicionarItens(lista){
-    lista.push("Novo item");
+// function adicionarItens(lista){
+//     lista.push("Novo item");
+// }
+// let itens = ["Item 1", "Item 2"];
+// adicionarItens(itens);
+// console.log(itens);
+
+//Return Booleano
+function par(numero: Int): Boolean{
+    return numero % 2 == 0
 }
-let itens = ["Item 1", "Item 2"];
-adicionarItens(itens);
-console.log(itens);
+console.log(par(10))
+console.log(par(5))
